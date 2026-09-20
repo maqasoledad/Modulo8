@@ -1,0 +1,19 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno (contienen configuración local/sensible)
+.env
+
+# Logs generados en runtime (se conserva la carpeta con .gitkeep)
+logs/*.txt
+
+# Archivos subidos por usuarios (se conserva la carpeta con .gitkeep)
+uploads/avatars/*
+!uploads/avatars/.gitkeep
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
